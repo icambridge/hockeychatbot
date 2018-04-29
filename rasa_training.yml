@@ -1,0 +1,161 @@
+%[whoIs]
+    who is @[firstName?] @[lastName]?
+    who was @[firstName?] @[lastName]?
+    whos @[firstName?] @[lastName]?
+    who's @[firstName?] @[lastName]?
+%[whoIs_FirstName]
+    first name @[firstName]
+    their first is @[firstName]
+    their first name is @[firstName]
+%[whoIs_LastName]
+    last name @[lastName]
+    their last name is @[lastName]
+%[whoIs_Status]
+    they are @[status]
+    they're @[status]
+    he is @[status]
+    she is @[status]
+%[teamRoster]
+    who plays for @[team]?
+    whos on @[team]
+    @[team] roster
+
+%[greet]
+    hey
+    hello
+    hallo
+    sup
+    awrite
+    alright
+%[affirm]
+    yes
+    yep
+    yeah
+    indeed
+    that's right
+    ok
+    great
+    right, thank you
+    correct
+    great choice
+    sounds really good
+    ja
+    jap
+    jup
+    aye
+%[deny]
+    No
+    Nope
+    next
+    Next!
+    no
+    nop
+    nah
+    that's not right
+    nie
+    nien
+    naw
+    nope
+    wrong
+    no I don't
+    that's not what I want
+    that's not correct
+    incorrect
+    wrong
+
+@[status]
+    retired
+    active
+
+@[age]
+    16
+    17
+    18
+    19
+    20
+    21
+    22
+    23
+    24
+    25
+    26
+    27
+    28
+    29
+    30
+    31
+    32
+
+@[team]
+    Die Eisbären
+    Die Eisbären Berlin
+    Eisbären
+    Eisbären Berlin
+    Red Bull
+    Red Bull München
+    Ducks
+    Mighty Ducks
+    LA Kings
+    Bremerhaven
+    Bremerhaven Fischtown
+    Köln
+    die Kölner Haie
+    Kölner Haie
+    Haie
+    Straubing
+    Straubing Tigers
+    Düsseldorfer EG
+    Mannheim
+    Adler Mannheim
+    Schwenningen
+    Schwenninger Wild Wings
+    Augsburger Panther
+    Augsburger
+    Augsburg
+    Krefeld
+    Krefeld Pinguine
+    Nürnberg
+    Wolfsburg
+    Grizzlys Wolfsburg
+    Iserlohn
+    Iserlohn Roosters
+    ERC Ingolstadt
+
+@[firstName]
+    Peter
+    James
+    Jamieson
+    Constantin
+    Micki
+    Micheal
+    Michael
+    Frank
+    Kai
+    Louis
+    Sebasitan
+    Darin
+    Barry
+    Kyle
+    Julian
+    Burno
+    Adam
+    Alex
+    Alec
+    Nic
+    Charlie
+    Charles
+
+@[lastName]
+    Müller
+    MacQueen
+    MacDonald
+    Cüpper
+    Gervais
+    Wilson
+    Petersen
+    Peterson
+    Krupp
+    Tarvainen
+    Backman
+    karlsson
+
